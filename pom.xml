@@ -19,6 +19,7 @@
     <module>acosom-flink-app</module>
     <module>acosom-kafka-producer</module>
     <module>acosom-kafka-consumer</module>
+    <module>acosom-common</module>
   </modules>
 
 </project>
