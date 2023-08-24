@@ -20,15 +20,6 @@ docker-compose run -d
 docker run -it -d --name acosom-mongodb -p 27017 --network acosomNet --restart always -v acosom_mongodb_data:/data/db mongo:latest
 ```
 
-## Kafka Producer/Consumer execution ⚙️
-
-```
-* Producer - navigate under acosom-kafka-producer folder and run
-mvn spring-boot:run
- 
-* Producer - navigate under acosom-kafka-consumer folder and run
-mvn spring-boot:run
-```
 ## Create Kafka topics ⚙️
 
 ```
@@ -43,13 +34,26 @@ docker-compose exec kafka kafka-console-consumer.sh --bootstrap-server localhost
 
 ```
 
+## Kafka Producer/Consumer execution ⚙️
+
+```
+* Producer - navigate under acosom-kafka-producer folder and run
+mvn spring-boot:run
+ 
+* Producer - navigate under acosom-kafka-consumer folder and run
+mvn spring-boot:run
+```
 
 ## Flink app Execution ⚙️
 
 ```
- * Execute under flink-1.17.1 folder
- 
-    mvn clean package 
+* Execute under flink-1.17.1/bin folder    
+    ./start-cluster.sh
+    
+* Execte under acosom-flink-app
+    mvn clean package
+   
+* Execute under flink-1.17.1/bin folder 
     ./flink run ../../acosom-flink-app/target/acosom-flink-app-1.0-SNAPSHOT.jar
 ```
 
