@@ -1,0 +1,13 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.jboss.netty.util.internal.ByteBufferUtil (file:/var/folders/x1/pr8c20ks4vqgjl0bv5_h2ss00000gn/T/flink-rpc-akka_9e8ea982-4fa4-4984-81a2-7d9526adbd43.jar) to method java.nio.DirectByteBuffer.cleaner()
+WARNING: Please consider reporting this to the maintainers of org.jboss.netty.util.internal.ByteBufferUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+(UserDataPresentation{userId='d93a79b6-40ef-11ee-eu1', region='eu', userLevel=BEGINNER, createdAt=2023-08-24T00:40:45.368784, pageId=5, action=VIEWED},1)
+(UserDataPresentation{userId='d93a79b6-40ef-11ee-eu1', region='eu', userLevel=BEGINNER, createdAt=2023-08-24T00:40:45.368784, pageId=5, action=VIEWED},2)
+(UserDataPresentation{userId='d93a79b6-40ef-11ee-uk1', region='uk', userLevel=BEGINNER, createdAt=2023-08-24T00:40:45.372130, pageId=5, action=VIEWED},1)
+(UserDataPresentation{userId='d93a79b6-40ef-11ee-uk1', region='uk', userLevel=BEGINNER, createdAt=2023-08-24T00:40:45.372130, pageId=5, action=VIEWED},2)
+(UserDataPresentation{userId='d93a79b6-40ef-11ee-eu1', region='eu', userLevel=BEGINNER, createdAt=2023-08-24T00:40:45.368784, pageId=5, action=VIEWED},3)
+(UserDataPresentation{userId='d93a79b6-40ef-11ee-uk1', region='uk', userLevel=BEGINNER, createdAt=2023-08-24T00:40:45.372130, pageId=5, action=VIEWED},3)
+(UserDataPresentation{userId='d93a79b6-40ef-11ee-eu1', region='eu', userLevel=BEGINNER, createdAt=2023-08-24T00:40:45.368784, pageId=5, action=VIEWED},4)
+(UserDataPresentation{userId='d93a79b6-40ef-11ee-uk1', region='uk', userLevel=BEGINNER, createdAt=2023-08-24T00:40:45.372130, pageId=5, action=VIEWED},4)

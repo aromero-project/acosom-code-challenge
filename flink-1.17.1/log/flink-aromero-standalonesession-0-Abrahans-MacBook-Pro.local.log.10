@@ -1,0 +1,7 @@
+2023-08-24 14:23:40,318 INFO  akka.actor.CoordinatedShutdown                               [] - Running CoordinatedShutdown with reason [ActorSystemTerminateReason]
+2023-08-24 14:23:40,318 INFO  akka.remote.RemoteActorRefProvider$RemotingTerminator        [] - Shutting down remote daemon.
+2023-08-24 14:23:40,322 INFO  akka.remote.RemoteActorRefProvider$RemotingTerminator        [] - Shutting down remote daemon.
+2023-08-24 14:23:40,323 INFO  akka.remote.RemoteActorRefProvider$RemotingTerminator        [] - Remote daemon shut down; proceeding with flushing remote transports.
+2023-08-24 14:23:40,323 INFO  akka.remote.RemoteActorRefProvider$RemotingTerminator        [] - Remote daemon shut down; proceeding with flushing remote transports.
+2023-08-24 14:23:40,365 INFO  akka.remote.RemoteActorRefProvider$RemotingTerminator        [] - Remoting shut down.
+2023-08-24 14:23:40,366 INFO  akka.remote.RemoteActorRefProvider$RemotingTerminator        [] - Remoting shut down.

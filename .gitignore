@@ -149,5 +149,3 @@ target/
 release.properties
 pom.xml.releaseBackup
 pom.xml.tags
-
-flink-1.17.1
