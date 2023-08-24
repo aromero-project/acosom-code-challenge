@@ -68,12 +68,9 @@ public class UserMessageHandler implements MessageHandler {
         if (message instanceof UserDataPresentation) {
             UserDataPresentationModel informationModel = UserDataPresentationModel.builder()
                     .id(UUID.randomUUID().toString())
-                    .userId(message.getUserId())
-                    .userLevel(message.getUserLevel())
                     .region(message.getRegion())
-                    .action(message.getAction())
                     .createdAt(message.getCreatedAt())
-                    .pageId(message.getPageId())
+                    .totalActions(message.getTotalActions())
                     .build();
             this.userDataPresentationRepository.save(informationModel);
             logger.log(Level.INFO, MessageFormat.format("UserDataPresentationModel save successfully in DB userId - {0}", message.getUserId()));

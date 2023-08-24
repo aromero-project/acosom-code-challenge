@@ -44,7 +44,7 @@ public class UserMessageConsumer implements MessageConsumer {
         logger.log(Level.INFO, MessageFormat.format("UserInteraction message successfully consumed userId - {0}", message.getUserId()));
     }
 
-    @KafkaListener(topics = USER_PRESENTATION_TOPIC, groupId = USER_DATA_GROUP_ID)
+    //@KafkaListener(topics = USER_PRESENTATION_TOPIC, groupId = USER_DATA_GROUP_ID)
     @Override
     public void consume(UserDataPresentation message, Acknowledgment ack) {
         this.messageHandler.on(message);

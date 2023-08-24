@@ -1,8 +1,6 @@
 package com.aromero.flink.common.dto;
 
 
-import com.aromero.flink.common.dto.enums.Action;
-import com.aromero.flink.common.dto.enums.UserLevel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,10 +14,9 @@ import java.time.LocalDateTime;
 @Builder
 public class UserDataPresentation extends Message {
 
-    private String region;
-    private UserLevel userLevel;
 
+    private String region;
+    private Double totalActions;
+    //private Map<String, Double> userLevelAverage;
     private LocalDateTime createdAt;
-    private Integer pageId;
-    private Action action;
 }
